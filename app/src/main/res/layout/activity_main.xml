@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E5E5E5E5"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <RelativeLayout
+            android:layout_width="343dp"
+            android:layout_height="95dp"
+            android:background="@color/greenbg" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="23dp"
+                android:src="@drawable/digiteam" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/digi"
+                android:textColor="@color/textHeader"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="35pt"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/digital"
+                android:textColor="@color/textHeader2"
+                android:textSize="12dp"
+                android:layout_marginLeft="35pt"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jabar"
+                android:textColor="@color/textHeader2"
+                android:textSize="12dp"
+                android:layout_marginLeft="35pt"
+                android:layout_marginTop="58dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="343dp"
+            android:layout_height="70dp">
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/orang"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23pt"
+                android:layout_marginTop="18dp"
+                android:text="@string/dias"
+                android:textSize="16dp"
+                android:textColor="@color/textHeader"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23pt"
+                android:layout_marginTop="43dp"
+                android:textSize="14dp"
+                android:text="@string/ui"
+                android:textColor="@color/textHeader2"/>
+        </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="343dp"
+                android:layout_height="237dp"
+                android:background="@color/white"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/bulan"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="45dp"
+                    android:text="@string/kerja"
+                    android:textColor="@color/textJam"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="30pt"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="@color/greenBlockRight"
+                    android:text="@string/jam"
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="30pt"
+                    android:layout_marginEnd="70dp"
+                    android:backgroundTint="@color/greenBlockLeft"
+                    android:text="@string/jam"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="55pt"
+                    android:text="@string/batas"
+                    android:textColor="@color/textHeader2"
+                    android:textSize="12dp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="70pt"
+                    android:layout_marginEnd="15dp"
+                    android:backgroundTint="@color/greenBlockLeft"
+                    android:text="@string/cek"
+
+            </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

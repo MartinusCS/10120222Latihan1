@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#E5E5E5E5</color>
+    <color name="greenbg">#E6F6EC</color>
+    <color name="textHeader">#212121</color>
+    <color name="textHeader2">#757575</color>
+    <color name="textJam">#0D47A1</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="greenBlockLeft">#008444</color>
+    <color name="greenBlockRight">#16A75C</color>
+    <color name="batas">#151920</color>
+    <color name="maretApril">#006430</color>
+    <color name="hijau1">#008444</color>
+    <color name="hijau2">#16A75C</color>
+    <color name="hijau3">#1FB767</color>
+    <color name="hijau4">#70CD94</color>
+    <color name="hijau5">#9BDBB3</color>
+    <color name="hijau6">#C3E9D0</color>
+    <color name="hijau7A">#069550</color>
+    <color name="hijau8A">#F5F5F5</color>
+
+
+</resources>
