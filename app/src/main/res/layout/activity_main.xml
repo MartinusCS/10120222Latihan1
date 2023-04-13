@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:background="@color/background"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -155,9 +155,9 @@
             android:id="@+id/button2"
             android:layout_width="311dp"
             android:layout_height="wrap_content"
+            android:text="@string/dad"
             android:layout_marginTop="8dp"
-            android:backgroundTint="#069550"
-
+            android:backgroundTint="@color/button"
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="@+id/textView6"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -167,7 +167,7 @@
             android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:backgroundTint="#008444"
+            android:backgroundTint="@color/hijau1"
             android:text="@string/jam"
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="@+id/textView6"
@@ -857,13 +857,147 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
         <ImageView
+            android:id="@+id/imageView7"
             android:layout_width="30dp"
-            android:layout_height="31dp"
-            android:layout_marginTop="68dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="100dp"
             android:background="@drawable/baseline_supervisor_account_24"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="95dp"
+            android:src="@drawable/buku"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="303dp"
+            android:src="@drawable/izin"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout66" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="59dp"
+            android:src="@drawable/terakhir"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="177dp"
+            android:src="@drawable/buku"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="21dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/agenda"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="309dp"
+            android:text="@string/izin"
+            android:textColor="@color/laporan"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="156dp"
+            android:text="@string/kehadiran"
+            android:textColor="@color/laporan"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="162dp"
+            android:text="@string/booking"
+            android:textColor="@color/laporan"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="294dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="35dp"
+            android:text="@string/wiki"
+            android:textColor="@color/laporan"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="294dp"
+            android:text="@string/agenda"
+            android:textColor="@color/laporan"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="282dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="42dp"
+            android:text="@string/laporan1"
+            android:textColor="@color/laporan"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -16,8 +16,9 @@
     <string name="buat">Buat Laporan</string>
     <string name="izin">Izin</string>
     <string name="kehadiran">Kehadiran</string>
-    <string name="laporan">Laporan</string>
+    <string name="laporan1">Laporan</string>
     <string name="agenda">Agenda</string>
     <string name="booking">Booking</string>w
     <string name="wiki">Wiki</string>
+    <string name="dad">.</string>
 </resources>

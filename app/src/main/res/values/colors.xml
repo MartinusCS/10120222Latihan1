@@ -7,6 +7,7 @@
     <color name="greenbg">#E6F6EC</color>
     <color name="textHeader">#212121</color>
     <color name="textHeader2">#757575</color>
+    <color name="laporan">#424242</color>
     <color name="textJam">#0D47A1</color>
     <color name="teal_700">#FF018786</color>
     <color name="greenBlockLeft">#008444</color>
@@ -21,6 +22,7 @@
     <color name="hijau6">#C3E9D0</color>
     <color name="hijau7A">#069550</color>
     <color name="hijau8A">#F5F5F5</color>
+    <color name="button">#069550</color>
 
 
 </resources>
